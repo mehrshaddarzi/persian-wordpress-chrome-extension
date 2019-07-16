@@ -1,0 +1,21 @@
+// Define
+$image_path: "../images";
+$namespace: "pw";
+$bg-color: #000;
+$text-color: #fff;
+$font-name: "IRANSans";
+
+// Load files
+@import "placeholder/placeholder-loading";
+@import "animate/animate";
+@import "bootstrap/bootstrap";
+@import "bootstrap/bootstrap-rtl";
+
+// Load font
+@import "font";
+
+// Load Basic
+@import "basic";
+
+// Application
+@import "page/home";

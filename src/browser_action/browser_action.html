@@ -1,17 +1,40 @@
 <!doctype html>
-<style type="text/css">
-	#mainPopup {
-		padding: 10px;
-		height: 200px;
-		width: 400px;
-		font-family: Helvetica, Ubuntu, Arial, sans-serif;
-	}
-	h1 {
-		font-size: 2em;
-	}
-</style>
+<html dir="rtl" lang="fa-IR">
+<head>
+    <title>وردپرس فارسی</title>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="../../app.min.css" rel="stylesheet">
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/bootstrap/bootstrap.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="app" class="popup-content">
+    <h1 class="blue">A Browser Action</h1>
 
-<div id="mainPopup">
-<h1>Hello extensionizr!</h1>
-<p>To shut this popup down, edit the manifest file and remove the "default popup" key. To edit it, just edit ext/browser_action/browser_action.html. The CSS is there, too.</p>
+    <div id="display-container">
+        <button type="button" id="clickMe">Click Me</button>
+        <br/><br/>
+        <div id="frog">
+            <img src="images/frog.jpg" alt="croak" />
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            <small>
+                <a href="#" id="fireContentScript">Fire Content Script !</a>
+            </small>
+        </p>
+    </footer>
 </div>
+<script src="../../app.min.js"></script>
+</body>
+</html>

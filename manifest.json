@@ -20,20 +20,9 @@
     "tabs",
     "storage",
     "contextMenus",
-    "fileBrowserHandler",
     "notifications",
     "tabs",
     "https://*/*",
     "http://google.com/*"
-  ],
-  "content_scripts": [{
-    "matches": [
-      "http://*/*",
-      "https://*/*"
-    ],
-    "all_frames": true,
-    "js": ["./scripts/contentscript.js"],
-    "css": ["css/style.css"],
-    "run_at": "document_end"
-  }]
+  ]
 }
